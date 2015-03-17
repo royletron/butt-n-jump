@@ -290,6 +290,46 @@ BoxCollider2D:
   m_Offset: {x: .639999986, y: -.244082928}
   serializedVersion: 2
   m_Size: {x: 1.27999997, y: .151834011}
+--- !u!1 &1694233507
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1694233509}
+  - 114: {fileID: 1694233508}
+  m_Layer: 0
+  m_Name: Floor Emitter
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1694233508
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1694233507}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9b5132aae1caf4d27917188088d0cb8b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  prefab: {fileID: 135938, guid: 734fc06f0b5124470bab7751c87df9c4, type: 2}
+--- !u!4 &1694233509
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1694233507}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 1.23000002, y: -.699999988, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 2
 --- !u!1001 &1953879942
 Prefab:
   m_ObjectHideFlags: 0
@@ -327,7 +367,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 486534, guid: 734fc06f0b5124470bab7751c87df9c4, type: 2}
       propertyPath: m_RootOrder
-      value: 2
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 135938, guid: 734fc06f0b5124470bab7751c87df9c4, type: 2}
       propertyPath: m_Name
