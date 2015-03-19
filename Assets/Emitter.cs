@@ -13,7 +13,7 @@ public class Emitter : MonoBehaviour {
 	private float timeCounter = 0.0f;
 	private float timeTarget;
 
-	private Rigidbody2D instance;
+	public Rigidbody2D instance;
 
 
 	private float OffsetX;
@@ -26,7 +26,9 @@ public class Emitter : MonoBehaviour {
 		}
 		if (continuous) {
 			childWidth = prefabs [Random.Range (0, prefabs.Length)].GetComponent<SpriteRenderer>().bounds.size.x;
-			AddContinuous();
+			if(instance == null){
+				AddContinuous();
+			}
 		}
 	}
 
