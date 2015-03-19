@@ -47,6 +47,9 @@ TagManager:
   - name: BG2
     uniqueID: 2193299831
     locked: 0
+  - name: BG3
+    uniqueID: 3833141693
+    locked: 0
   - name: Floor
     uniqueID: 2077957415
     locked: 0
@@ -55,4 +58,7 @@ TagManager:
     locked: 0
   - name: FG2
     uniqueID: 2660195035
+    locked: 0
+  - name: FG1
+    uniqueID: 990436667
     locked: 0
