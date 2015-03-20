@@ -644,7 +644,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_MaxSpeed: 2
-  m_JumpForce: 400
+  m_JumpForce: 1
   m_CrouchSpeed: .360000014
   m_AirControl: 0
   m_WhatIsGround:
@@ -674,7 +674,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2951f22d071a34161b08fda61d631412, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 4
+  speed: 1
 --- !u!1001 &707194617
 Prefab:
   m_ObjectHideFlags: 0
