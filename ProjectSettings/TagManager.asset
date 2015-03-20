@@ -56,11 +56,17 @@ TagManager:
   - name: Floor
     uniqueID: 2077957415
     locked: 0
-  - name: Player
-    uniqueID: 1592908189
-    locked: 0
   - name: Treeline
     uniqueID: 1413251657
+    locked: 0
+  - name: Fat Tree
+    uniqueID: 947572811
+    locked: 0
+  - name: Fat Tree Top
+    uniqueID: 3511280561
+    locked: 0
+  - name: Player
+    uniqueID: 1592908189
     locked: 0
   - name: FG2
     uniqueID: 2660195035
