@@ -50,6 +50,9 @@ TagManager:
   - name: BG3
     uniqueID: 3833141693
     locked: 0
+  - name: BG4
+    uniqueID: 3339729109
+    locked: 0
   - name: Floor
     uniqueID: 2077957415
     locked: 0
