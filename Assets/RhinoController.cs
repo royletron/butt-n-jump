@@ -23,7 +23,6 @@ public class RhinoController : MonoBehaviour
 		{
 			// Read the jump input in Update so button presses aren't missed.
 			m_Jump = CrossPlatformInputManager.GetButtonDown("Jump");
-			print (m_Jump);
 		}
 	}
 	
