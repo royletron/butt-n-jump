@@ -5,6 +5,9 @@ public class FootEmitter : MonoBehaviour {
 
 	private bool emitted = false;
 	public bool emit = false;
+
+	public ParticleSystem emission;
+
 	// Use this for initialization
 	void Start () {
 		emitted = true;
@@ -15,7 +18,8 @@ public class FootEmitter : MonoBehaviour {
 		if(emit && !emitted)
 		{
 			emitted = true;
-			print (this.GetComponentInParent<Transform> ().position.x);
+			ParticleSystem instance = (ParticleSystem)Instantiate(emission);
+			instance.transform.position = this.transform.position;
 		}
 		if (!emit && emitted) 
 		{
